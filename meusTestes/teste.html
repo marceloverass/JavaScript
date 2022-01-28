@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste</title>
+    <title>Nacionalidade</title>
 </head>
 <body>
-    
+    <h1>Nacionalidade</h1>
+    <p>Em qual país você nasceu?</p>
+    <input type="text" name="txtnacio" id="txtnacio">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id='res'></div>
+
     <script>
-        var media = Number(window.prompt('Quanto você tirou na prova?'))
-        window.alert = media >= 6?'Aprovado':'Reprovado'
+        function verificar(){
+            var txtn = window.document.querySelector('input#txtnacio')
+            var res = window.document.querySelector('div#res')
+            var nacionalidade = txtn.value
+            if (nacionalidade == 'Brasil'){
+                res.innerHTML = 'Você é brasileiro'
+            } else {
+                res.innerHTML = 'Você é estrangeiro'
+            }
+        }
     </script>
 </body>
 </html>
