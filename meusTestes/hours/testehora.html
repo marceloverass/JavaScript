@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>HOURS</title>
+</head>
+<body>
+    <h1>HOURS</h1>
+    <div class='box'>
+        <p id='frase'>Agora são 9 horas.</p>
+        <div class = 'img1'><img src="imagens/bom-dia.png" alt="bom-dia"></div>
+        <div class =  'img2' style="display: none;"><img src="imagens/boa-tarde.png" alt="boa-tarde"></div>
+    </div>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script>
+        var hora = 19
+        if (hora < 12) {
+            frase.innerHTML = 'Bom dia!'
+        } else if (hora < 18) {
+            frase.innerHTML = 'Boa tarde!'
+        } else if (hora < 24) {
+            frase.innerHTML = 'Boa noite!'
+        }
+    </script>
+</body>
+</html>
