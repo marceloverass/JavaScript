@@ -1,0 +1,39 @@
+body {
+    background: rgb(187, 107, 241);
+    font: normal 13pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+#txtano {
+    margin-bottom: 20px;
+}
+
+#mas {
+    margin-bottom: 25px;
+}
+
+#verificar {
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 15pt;
+}
