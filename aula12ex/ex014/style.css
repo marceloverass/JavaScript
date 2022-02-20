@@ -8,6 +8,26 @@ header {
     text-align: center;
 }
 
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#diaSem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 section {
     background: white;
     border-radius: 10px;
@@ -17,27 +37,8 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
 }
 
-#msg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-#foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 5px;
-}
-
-footer > p > a{
-    margin-top: 50px;
+footer {
     color: white;
+    text-align: center;
     font-style: italic;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
