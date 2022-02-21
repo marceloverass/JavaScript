@@ -16,6 +16,8 @@ while (c <= 6) {
 */
 
 /*
+            SEM ESTRUTURA DE REPETIÇÃO
+
  console.log('TUDO BEM'?)
  console.log('TUDO BEM'?)
  console.log('TUDO BEM'?)
